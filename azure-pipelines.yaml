@@ -7,6 +7,14 @@ name: Azure Pipelines
 variables:
   python.version: '3.7.6'
 stages:
+- stage: Provision
+  jobs:
+  - job: Provision_Azure_Infrastructure
+    displayName: Provision Azure Infrastructure
+    pool:
+      vmImage: 'ubuntu-18.04'
+    steps:
+    - task: tfvardef
 - stage: Build
   jobs:
   - job: Build
@@ -14,11 +22,11 @@ stages:
       name: Hosted Ubuntu 1604
     steps:
     # Needed for Terraform VM deployment
-    # - task: InstallSSHKey@0
-    #   inputs:
-    #     knownHostsEntry: 'KNOWN_HOSTS_STRING'
-    #     sshPublicKey: 'PUBLIC_KEY'
-    #     sshKeySecureFile: 'id_rsa'
+    - task: InstallSSHKey@0
+      inputs:
+        knownHostsEntry: $(knownHost)
+        sshPublicKey: $(pubKey)
+        sshKeySecureFile: 'project-3-key'
     - task: ArchiveFiles@2
       displayName: 'Archive FakeRestAPI'
       inputs:
