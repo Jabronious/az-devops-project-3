@@ -15,10 +15,10 @@ stages:
       vmImage: 'ubuntu-18.04'
     steps:
     - task: DownloadSecureFile@1
-        name: tfvardef
-        displayName: Download terraform.tfvars
-        inputs:
-          secureFile: 'terraform.tfvars'
+      name: tfvardef
+      displayName: Download terraform.tfvars
+      inputs:
+        secureFile: 'terraform.tfvars'
     steps:
     # Needed for Terraform VM deployment
     - task: InstallSSHKey@0
