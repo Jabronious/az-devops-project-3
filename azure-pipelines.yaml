@@ -14,12 +14,11 @@ stages:
     pool:
       vmImage: 'ubuntu-18.04'
     steps:
-    - task: tfvardef
-- stage: Build
-  jobs:
-  - job: Build
-    pool:
-      name: Hosted Ubuntu 1604
+    - task: DownloadSecureFile@1
+        name: tfvardef
+        displayName: Download terraform.tfvars
+        inputs:
+          secureFile: 'terraform.tfvars'
     steps:
     # Needed for Terraform VM deployment
     - task: InstallSSHKey@0
@@ -27,6 +26,12 @@ stages:
         knownHostsEntry: $(knownHost)
         sshPublicKey: $(pubKey)
         sshKeySecureFile: 'project-3-key'
+- stage: Build
+  jobs:
+  - job: Build
+    pool:
+      name: Hosted Ubuntu 1604
+    steps:
     - task: ArchiveFiles@2
       displayName: 'Archive FakeRestAPI'
       inputs:
