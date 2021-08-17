@@ -25,6 +25,15 @@ stages:
         knownHostsEntry: $(knownHost)
         sshPublicKey: $(pubKey)
         sshKeySecureFile: 'project-3-key'
+    - task: Bash@3
+      displayName: Copying tfvars
+      inputs:
+        script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
+    - task: TerraformInstaller@0
+      displayName: Install Terraform
+      inputs:
+        terraformVersion: 0.15.3
+
 - stage: Build
   jobs:
   - job: Build
