@@ -14,17 +14,16 @@ stages:
     pool:
       vmImage: 'ubuntu-18.04'
     steps:
-    - task: DownloadSecureFile@1
-      name: tfvardef
-      displayName: Download terraform.tfvars
-      inputs:
-        secureFile: 'terraform.tfvars'
     # Needed for Terraform VM deployment
     - task: InstallSSHKey@0
       inputs:
         knownHostsEntry: $(knownHost)
         sshPublicKey: $(pubKey)
         sshKeySecureFile: 'project-3-key'
+    - task: DownloadSecureFile@1
+      displayName: Download Secure tfvars file
+      inputs:
+        secureFile: terraform.tfvars
     - task: Bash@3
       displayName: Copying tfvars
       inputs:
@@ -32,7 +31,7 @@ stages:
     - task: TerraformInstaller@0
       displayName: Install Terraform
       inputs:
-        terraformVersion: 0.15.3
+        terraformVersion: '0.15.3'
 
 - stage: Build
   jobs:
