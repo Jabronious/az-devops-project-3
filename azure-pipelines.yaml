@@ -19,7 +19,7 @@ stages:
       inputs:
         knownHostsEntry: $(knownHost)
         sshPublicKey: $(pubKey)
-        sshKeySecureFile: 'project-3-key'
+        sshKeySecureFile: 'id_rsa'
     - task: DownloadSecureFile@1
       displayName: Download Secure tfvars file
       inputs:
