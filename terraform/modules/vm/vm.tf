@@ -17,7 +17,7 @@ resource "azurerm_linux_virtual_machine" "az-vm" {
   resource_group_name = "${var.resource_group}"
   size                = "${var.size}"
   admin_username      = "${var.admin_username}"
-  network_interface_ids = []
+  network_interface_ids = [azurerm_network_interface.nic.id]
   admin_ssh_key {
     username   = "${var.admin_username}"
     public_key = file("~/.ssh/id_rsa.pub")
