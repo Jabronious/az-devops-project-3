@@ -46,7 +46,7 @@ stages:
         backendServiceArm: 'ServiceConnection'
         backendAzureRmResourceGroupName: 'project-3'
         backendAzureRmStorageAccountName: 'tfstate15863'
-        backendAzureRmContainerName: 'tstate'
+        backendAzureRmContainerName: 'tfstate'
         backendAzureRmKey: 'terraform.tfstate'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environment/test'
     - task: TerraformTaskV1@0
