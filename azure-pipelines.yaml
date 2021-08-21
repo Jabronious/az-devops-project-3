@@ -24,11 +24,6 @@ stages:
       displayName: Download Secure tfvars file
       inputs:
         secureFile: terraform.tfvars
-    - task: DownloadSecureFile@1
-      name: sshkey
-      displayName: 'Download SSH Public Key'
-      inputs:
-        secureFile: 'id_rsa.pub'
     - task: Bash@3
       displayName: "Copy SSH key"
       inputs:
