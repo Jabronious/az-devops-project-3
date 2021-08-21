@@ -30,7 +30,7 @@ stages:
         targetType: 'inline'
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
     - task: TerraformInstaller@0
-      displayName: Install Terraform
+      displayName: Install
       inputs:
         terraformVersion: '0.15.3'
     - task: TerraformTaskV1@0
@@ -43,7 +43,7 @@ stages:
         backendAzureRmStorageAccountName: 'tfstate383'
         backendAzureRmContainerName: 'tstate'
         backendAzureRmKey: 'terraform.tfstate'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environment/test'
     - task: TerraformTaskV1@0
       displayName: Plan
       inputs:
