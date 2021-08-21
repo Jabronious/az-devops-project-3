@@ -29,6 +29,11 @@ stages:
       inputs:
         targetType: 'inline'
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
+    - task: Bash@3
+      displayName: Confirm tfvars
+      inputs:
+        targetType: 'inline'
+        script: ls $(System.DefaultWorkingDirectory)/terraform/environment/test
     - task: TerraformInstaller@0
       displayName: Install
       inputs:
