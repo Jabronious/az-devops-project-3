@@ -17,7 +17,7 @@ stages:
     # Needed for Terraform VM deployment
     - task: InstallSSHKey@0
       inputs:
-        knownHostsEntry: $(knownHost)
+        knownHostsEntry: 'az-devops-project-3'
         sshPublicKey: $(pubKey)
         sshKeySecureFile: 'id_rsa'
     - task: DownloadSecureFile@1
@@ -30,10 +30,15 @@ stages:
         targetType: 'inline'
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
     - task: Bash@3
-      displayName: Confirm tfvars
+      displayName: Confirm ssh directory
       inputs:
         targetType: 'inline'
         script: ls ~/.ssh
+    - task: Bash@3
+      displayName: Confirm pubKey var
+      inputs:
+        targetType: 'inline'
+        script: echo '$(pubKey)'
     - task: TerraformInstaller@0
       displayName: Install
       inputs:
