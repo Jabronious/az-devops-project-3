@@ -27,6 +27,14 @@ stages:
     - task: Bash@3
       displayName: Copying tfvars
       inputs:
+        script: ls $(Agent.TempDirectory)/terraform.tfvars
+    - task: Bash@3
+      displayName: Copying tfvars
+      inputs:
+        script: ls $(System.DefaultWorkingDirectory)/terraform/environment/test
+    - task: Bash@3
+      displayName: Copying tfvars
+      inputs:
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
     - task: TerraformInstaller@0
       displayName: Install Terraform
