@@ -25,15 +25,6 @@ stages:
       inputs:
         secureFile: terraform.tfvars
     - task: Bash@3
-      displayName: "Copy SSH key"
-      inputs:
-        targetType: 'inline'
-        script: |
-          mkdir -p ~/.ssh
-          touch ~/.ssh/id_rsa.pub
-          echo $(pubKey) > ~/.ssh/id_rsa.pub
-          cp $(sshkey.secureFilePath) ~/.ssh
-    - task: Bash@3
       displayName: Copying tfvars
       inputs:
         targetType: 'inline'
