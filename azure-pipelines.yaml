@@ -30,15 +30,15 @@ stages:
         targetType: 'inline'
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
     - task: Bash@3
-      displayName: Confirm ssh directory
+      displayName: Copy ssh files
       inputs:
         targetType: 'inline'
-        script: ls ~/.ssh
+        script: cp $(Agent.TempDirectory)/terraform_rsa ~/.ssh
     - task: Bash@3
-      displayName: Confirm pubKey var
+      displayName: View Temp Dir
       inputs:
         targetType: 'inline'
-        script: echo '$(pubKey)'
+        script: ls $(Agent.TempDirectory)
     - task: TerraformInstaller@0
       displayName: Install
       inputs:
