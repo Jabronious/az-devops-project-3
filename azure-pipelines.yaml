@@ -19,7 +19,7 @@ stages:
       inputs:
         knownHostsEntry: $(knownHosts)
         sshPublicKey: $(pubKey)
-        sshKeySecureFile: id_rsa
+        sshKeySecureFile: terraform_rsa
     - task: DownloadSecureFile@1
       displayName: Download Secure tfvars file
       inputs:
