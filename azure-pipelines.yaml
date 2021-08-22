@@ -29,11 +29,11 @@ stages:
       inputs:
         targetType: 'inline'
         script: cp $(Agent.TempDirectory)/terraform.tfvars $(System.DefaultWorkingDirectory)/terraform/environment/test
-    # - task: Bash@3
-    #   displayName: Copy ssh files
-    #   inputs:
-    #     targetType: 'inline'
-    #     script: cp $(Agent.TempDirectory)/terraform_rsa ~/.ssh
+    - task: Bash@3
+      displayName: Copy ssh pub file
+      inputs:
+        targetType: 'inline'
+        script: cp $(Agent.TempDirectory)/terraform_rsa.pub ~/.ssh
     - task: Bash@3
       displayName: View Temp Dir
       inputs:
