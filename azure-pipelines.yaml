@@ -17,9 +17,9 @@ stages:
     # Needed for Terraform VM deployment
     - task: InstallSSHKey@0
       inputs:
-        knownHostsEntry: 'az-devops-project-3'
+        knownHostsEntry: $(knownHosts)
         sshPublicKey: $(pubKey)
-        sshKeySecureFile: 'id_rsa'
+        sshKeySecureFile: id_rsa
     - task: DownloadSecureFile@1
       displayName: Download Secure tfvars file
       inputs:
