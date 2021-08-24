@@ -48,7 +48,7 @@ stages:
       inputs:
         provider: 'azurerm'
         command: 'init'
-        backendServiceArm: 'ServiceConnection'
+        backendServiceArm: 'TfServiceConnection'
         backendAzureRmResourceGroupName: 'project-3'
         backendAzureRmStorageAccountName: 'tfstate15863'
         backendAzureRmContainerName: 'tfstate'
@@ -60,7 +60,7 @@ stages:
         provider: 'azurerm'
         command: 'plan'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environment/test'
-        environmentServiceNameAzureRM: 'ServiceConnection'
+        environmentServiceNameAzureRM: 'TfServiceConnection'
     - task: TerraformTaskV1@0
       displayName: Apply
       inputs:
@@ -69,7 +69,7 @@ stages:
         commandOptions: |
           -auto-approve
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environment/test'
-        environmentServiceNameAzureRM: 'ServiceConnection'
+        environmentServiceNameAzureRM: 'TfServiceConnection'
 - stage: Build
   jobs:
   - job: Build
@@ -100,7 +100,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App'
             inputs:
-              azureSubscription: 'ServiceConnection'
+              azureSubscription: 'TfServiceConnection'
               appName: 'ensure-quality-AppService'
               appType: webApp
               package: $(Pipeline.Workspace)/drop-fakerestapi/$(Build.BuildId)-fakerestapi.zip
