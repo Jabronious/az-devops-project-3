@@ -40,6 +40,7 @@ module "nsg-test" {
 module "appservice" {
   source           = "../../modules/appservice"
   location         = "${var.location}"
+  application_name = "${var.application_name}"
   application_type = "${var.application_type}"
   resource_type    = "AppService"
   resource_group   = "${module.resource_group.resource_group_name}"
