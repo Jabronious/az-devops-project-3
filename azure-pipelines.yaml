@@ -136,14 +136,14 @@ stages:
           inputs:
             script: 'npm install -g newman'
             workingDirectory: '$(System.DefaultWorkingDirectory)'
-        - task: CmdLine@2
-          displayName: Run Regression Tests
-          inputs:
-            script: 'newman run automatedtesting/postman/Starter_APIs.postman_collection.json -e automatedtesting/postman/Test.postman_environment.json --reporters cli,junit --reporter-junit-export Results/PostmanTests.xml'
-            workingDirectory: '$(System.DefaultWorkingDirectory)'
-        - task: PublishTestResults@2
-          displayName: Publish Postman Reports
-          inputs:
-            testResultsFormat: 'JUnit'
-            testResultsFiles: '$(System.DefaultWorkingDirectory)/Results/*.xml'
+        # - task: CmdLine@2
+        #   displayName: Run Regression Tests
+        #   inputs:
+        #     script: 'newman run automatedtesting/postman/Starter_APIs.postman_collection.json -e automatedtesting/postman/Test.postman_environment.json --reporters cli,junit --reporter-junit-export Results/PostmanTests.xml'
+        #     workingDirectory: '$(System.DefaultWorkingDirectory)'
+        # - task: PublishTestResults@2
+        #   displayName: Publish Postman Reports
+        #   inputs:
+        #     testResultsFormat: 'JUnit'
+        #     testResultsFiles: '$(System.DefaultWorkingDirectory)/Results/*.xml'
 
