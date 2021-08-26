@@ -125,7 +125,7 @@ stages:
                 sudo apt-get install -y chromium-browser
                 pip3 install selenium
                 export PATH=$PATH:some/path
-- stage: Test Suites
+- stage: Test_Suites
   displayName: Running All Tests
   jobs:
     - job: RunPostmanTests
