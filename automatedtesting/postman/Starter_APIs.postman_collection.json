@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "69345fc7-4257-4b80-bc8f-df9f1b9d5af6",
+		"name": "Starter APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Activity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});",
+							"var json = pm.response.json();",
+							"pm.environment.set(\"activityId\", json.ID);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ID\": 125,\n    \"Title\": \"Activity Random\",\n    \"DueDate\": \"2021-08-25T03:57:40.061149+00:00\",\n    \"Completed\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Activity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities/{{activityId}}",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities",
+						"{{activityId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Activity",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});",
+							"pm.environment.set(\"activityId\", null);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities/{{activityId}}",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities",
+						"{{activityId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Activities",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apiEndpoint",
+			"value": "http://ensure-quality-appservice.azurewebsites.net/api",
+			"disabled": true
+		},
+		{
+			"value": "",
+			"disabled": true
+		}
+	]
+}
