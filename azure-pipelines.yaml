@@ -145,5 +145,6 @@ stages:
         displayName: Publish Postman Reports
         inputs:
           testResultsFormat: 'JUnit'
-          testResultsFiles: '$(System.DefaultWorkingDirectory)/Results/*.xml'
+          testResultsFiles: '**/*.xml'
+          searchFolder: '$(System.DefaultWorkingDirectory)/Results'
 
