@@ -23,18 +23,23 @@ def login (user, password):
     print ('Assertion passed.')
 
 def add_cart():
-    print('adding back pack...')
-    DRIVER.find_element_by_id('add-to-cart-sauce-labs-backpack').click()
-    print ('Asserting back pack was added to cart')
-    assert '1' in DRIVER.find_element_by_class_name('shopping_cart_badge').text
-    print ('Assertion passed.')
+    print('Asserting items were added to cart')
+    assert str(click_btns()) in DRIVER.find_element_by_class_name('shopping_cart_badge').text
+    print('Assertion passed.')
 
 def remove_cart():
-    print('removing back pack...')
-    DRIVER.find_element_by_id('remove-sauce-labs-backpack').click()
-    print ('Asserting back pack was removed from cart')
+    print('Asserting back pack was removed from cart')
+    click_btns()
     assert not len(DRIVER.find_elements_by_class_name('shopping_cart_badge'))
-    print ('Assertion passed.')
+    print('Assertion passed.')
+
+def click_btns():
+    inventoryBtns = DRIVER.find_elements_by_class_name('btn_inventory')
+    print('Clicking all the buttons...')
+    for btn in inventoryBtns:
+        btn.click()
+    print('%d items clicked' % len(inventoryBtns))
+    return len(inventoryBtns)
 
 login('standard_user', 'secret_sauce')
 add_cart()
