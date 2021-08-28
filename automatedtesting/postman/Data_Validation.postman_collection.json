@@ -13,7 +13,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Successful response\", function () {",
-							"    pm.expect(pm.response.json().length).to.eql(1);",
+							"    pm.expect(pm.response.json().length).to.eql(30);",
 							"    pm.expect(pm.response.code).to.eql(200);",
 							"});"
 						],
