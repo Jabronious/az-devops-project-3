@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "34455ac9-736c-4ed9-ad4c-949df9b9548e",
+		"name": "Data Validation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Activities",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.json().length).to.eql(1);",
+							"    pm.expect(pm.response.code).to.eql(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Activity Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const item = {",
+							"    \"ID\": 125,",
+							"    \"Title\": \"Activity Random\",",
+							"    \"DueDate\": \"2021-08-25T03:57:40.061149+00:00\",",
+							"    \"Completed\": false",
+							"};",
+							"pm.test(\"Successful response\", function () {",
+							"    console.log(pm.response.json())",
+							"    console.log(item)",
+							"    pm.expect(pm.response.json().ID).to.equal(item.ID);",
+							"    pm.expect(pm.response.json().Title).to.equal(item.Title);",
+							"    pm.expect(pm.response.json().DueDate).to.equal(item.DueDate);",
+							"    pm.expect(pm.response.json().Completed).to.equal(item.Completed);",
+							"    pm.expect(pm.response.code).to.eql(200);",
+							"});",
+							"var json = pm.response.json();",
+							"pm.environment.set(\"activityId\", json.ID);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ID\": 125,\n    \"Title\": \"Activity Random\",\n    \"DueDate\": \"2021-08-25T03:57:40.061149+00:00\",\n    \"Completed\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Activity Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.json().Completed).to.eql(true)",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Completed\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities/{{activityId}}",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities",
+						"{{activityId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Activity Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.status).to.eql('OK')",
+							"    pm.expect(pm.response.code).to.eql(200)",
+							"});",
+							"pm.environment.set(\"activityId\", null);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiEndpoint}}/Activities/{{activityId}}",
+					"host": [
+						"{{apiEndpoint}}"
+					],
+					"path": [
+						"Activities",
+						"{{activityId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
