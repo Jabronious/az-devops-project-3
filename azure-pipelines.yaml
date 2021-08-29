@@ -80,7 +80,7 @@ stages:
       displayName: 'Copy selenium files to artifact staging directory'
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)'
-        Contents: '**/selenium/login.py'
+        Contents: '**/selenium/*.py'
         TargetFolder: $(Build.ArtifactStagingDirectory)
     - publish: $(Build.ArtifactStagingDirectory)
       artifact: selenium
@@ -130,7 +130,7 @@ stages:
               targetType: 'inline'
               script: |
                 #! /bin/bash
-                
+                ls
                 sudo apt-get upgrade -y
                 sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
