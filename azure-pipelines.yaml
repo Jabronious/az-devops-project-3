@@ -76,6 +76,14 @@ stages:
     pool:
       name: Hosted Ubuntu 1604
     steps:
+    - task: CopyFiles@2
+      displayName: 'Copy selenium files to artifact staging directory'
+      inputs:
+        SourceFolder: '$(System.DefaultWorkingDirectory)'
+        Contents: '**/selenium/login.py'
+        TargetFolder: $(Build.ArtifactStagingDirectory)
+    - publish: $(Build.ArtifactStagingDirectory)
+      artifact: selenium
     - task: ArchiveFiles@2
       displayName: 'Archive FakeRestAPI'
       inputs:
@@ -111,6 +119,10 @@ stages:
       resourceType: VirtualMachine
     strategy:
       runOnce:
+        preDeploy:
+          steps:
+            - download: current
+              artifact: selenium
         deploy:
           steps:
           - task: Bash@3
@@ -125,6 +137,12 @@ stages:
                 sudo apt-get install -y chromium-browser
                 pip3 install selenium
                 export PATH=$PATH:some/path
+          - task: Bash@3
+            displayName: Selenium tests
+            inputs:
+              targetType: 'inline'
+              script: |
+                python3 login.py
 - stage: Test_Suites
   displayName: Running All Tests
   jobs:
