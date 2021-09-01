@@ -137,6 +137,9 @@ stages:
                 sudo apt-get install -y chromium-browser
                 pip3 install selenium
                 export PATH=$PATH:some/path
+          - task: CmdLine@2
+            inputs:
+              script: ls
           - task: Bash@3
             displayName: Selenium tests
             inputs:
