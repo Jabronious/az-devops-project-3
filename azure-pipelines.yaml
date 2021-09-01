@@ -129,6 +129,9 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
+                #! /bin/bash
+
+                echo ls
                 ls
           - task: Bash@3
             inputs:
@@ -147,7 +150,7 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                python3 login.py
+                python3 ~/login.py
 - stage: Test_Suites
   displayName: Running All Tests
   jobs:
