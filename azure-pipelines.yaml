@@ -139,7 +139,10 @@ stages:
                 export PATH=$PATH:/usr/bin/chromium-browser
           - task: CmdLine@2
             inputs:
-              script: ls
+              script: echo $PATH
+          - task: CmdLine@2
+            inputs:
+              script: which chromium-browser
           - task: Bash@3
             displayName: Selenium tests
             inputs:
