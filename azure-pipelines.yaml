@@ -145,7 +145,7 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                python3 selenium/login.py
+                python3 automatedtesting/selenium/login.py
 - stage: Test_Suites
   displayName: Running All Tests
   jobs:
