@@ -132,9 +132,9 @@ stages:
                 #! /bin/bash
 
                 sudo apt-get upgrade -y
-                sudo apt install python3-pip -y
+                sudo apt-get update
+                sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
-                sudo apt-get install -y chromium-browser
 
                 #Installing Chromdriver
                 wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
