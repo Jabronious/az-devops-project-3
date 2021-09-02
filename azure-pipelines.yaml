@@ -137,7 +137,7 @@ stages:
                 sudo apt-get install unzip -y
 
                 #Installing Chromdriver
-                wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
+                wget https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip
                 unzip chromedriver_linux64.zip
                 sudo mv chromedriver /usr/bin/chromedriver
                 sudo chown root:root /usr/bin/chromedriver
