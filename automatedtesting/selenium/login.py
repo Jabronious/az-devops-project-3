@@ -2,7 +2,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 
-DRIVER = webdriver.Chrome()
+chrome_options = ChromeOptions()
+chrome_options.add_argument("--no-sandbox") # linux only
+chrome_options.add_argument("--headless")
+
+DRIVER = webdriver.Chrome(options=chrome_options)
 # Start the browser and login with standard_user
 def login (user, password):
     print ('Starting the browser...')
