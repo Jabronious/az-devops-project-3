@@ -142,18 +142,17 @@ stages:
 
 
                 #Installing Chromdriver
-                # wget https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip
-                # unzip chromedriver_linux64.zip
-                # sudo mv chromedriver /usr/bin/chromedriver
-                # sudo chown root:root /usr/bin/chromedriver
-                # sudo chmod +x /usr/bin/chromedriver
+                # Removes previous installations
+                rm chromedriver_linux64.zip
+                wget https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_linux64.zip
+                unzip chromedriver_linux64.zip
+                sudo mv chromedriver /usr/bin/chromedriver
+                sudo chown root:root /usr/bin/chromedriver
+                sudo chmod +x /usr/bin/chromedriver
 
                 pip3 install selenium
                 export PATH=$PATH:/usr/bin/chromedriver
                 echo $PATH
-          - task: CmdLine@2
-            inputs:
-              script: echo $PATH
           - task: Bash@3
             displayName: Selenium tests
             inputs:
