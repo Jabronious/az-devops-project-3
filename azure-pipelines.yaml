@@ -164,6 +164,7 @@ stages:
   jobs:
     - job: RunPostmanTests
       displayName: Postman Tests
+    
       steps:
       - task: CmdLine@2
         displayName: Install Newman
@@ -186,3 +187,36 @@ stages:
           testResultsFormat: 'JUnit'
           testResultsFiles: '**/*.xml'
           searchFolder: '$(System.DefaultWorkingDirectory)/Results'
+    - job: JmeterTests
+      displayName: Jmeter Tests
+      steps:
+        - task: Bash@3
+          displayName: Install Dependencies
+          inputs:
+            targetType: 'inline'
+            script: |
+              #! /bin/bash
+
+              # install java
+              sudo apt install -y default-jdk
+              # install jmeter
+              rm apache-jmeter-5.4.1.tgz
+              wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.4.1.tgz
+              tar -xvf apache-jmeter-5.4.1.tgz
+        - task: Bash@3
+          displayName: Run Jmeter
+          inputs:
+            targetType: 'inline'
+            script: |
+              apache-jmeter-5.4.1/bin/jmeter -n -t automatedtesting/jmeter/StressTests.jmx \
+                -l logs/jmeter/stress-results.csv \
+                -e -f -o logs/jmeter/stress-html-report \
+                -j logs/jmeter/stress.log
+
+              apache-jmeter-5.4.1/bin/jmeter -n -t automatedtesting/jmeter/EnduranceTests.jmx \
+                -l logs/jmeter/endurance-results.csv \
+                -e -f -o logs/jmeter/endurance-html-report \
+                -j logs/jmeter/endurance.log
+          #TODOS
+          #3. Generate logs for selenium
+          #4.  publish logs for selenium
