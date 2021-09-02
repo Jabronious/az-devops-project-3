@@ -209,14 +209,11 @@ stages:
             targetType: 'inline'
             script: |
               apache-jmeter-5.4.1/bin/jmeter -n -t automatedtesting/jmeter/StressTests.jmx \
-                -l logs/jmeter/stress-results.csv \
-                -e -f -o logs/jmeter/stress-html-report \
-                -j logs/jmeter/stress.log
+                -l reports/jmeter/stress-results.csv \
+                -e -f -o reports/jmeter/stress-html-report \
+                -j reports/jmeter/stress.log
 
               apache-jmeter-5.4.1/bin/jmeter -n -t automatedtesting/jmeter/EnduranceTests.jmx \
-                -l logs/jmeter/endurance-results.csv \
-                -e -f -o logs/jmeter/endurance-html-report \
-                -j logs/jmeter/endurance.log
-          #TODOS
-          #3. Generate logs for selenium
-          #4.  publish logs for selenium
+                -l reports/jmeter/endurance-results.csv \
+                -e -f -o reports/jmeter/endurance-html-report \
+                -j reports/jmeter/endurance.log

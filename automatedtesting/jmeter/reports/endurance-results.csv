@@ -1,0 +1,683 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1630609848202,663,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,1,1,https://ensure-quality-appservice.azurewebsites.net/api/Activities,662,0,567
+1630609848867,84,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,1,1,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,84,0,0
+1630609848952,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,1,1,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609849031,83,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,83,0,0
+1630609849116,73,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609849190,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,78,0,0
+1630609849269,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609849087,312,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,312,0,240
+1630609849348,79,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,79,0,0
+1630609849400,82,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,82,0,0
+1630609849429,91,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,91,0,0
+1630609849483,79,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609849521,85,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,85,0,0
+1630609849562,79,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,79,0,0
+1630609849607,75,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609849642,71,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609849683,82,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,82,0,0
+1630609849714,79,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,79,0,0
+1630609849766,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609849794,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609849846,77,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,77,0,0
+1630609849869,79,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,79,0,0
+1630609849924,76,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609849949,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609850001,77,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,77,0,0
+1630609850026,77,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,77,0,0
+1630609850079,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609850104,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609850158,85,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,84,0,0
+1630609850182,84,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,84,0,0
+1630609850243,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609850266,84,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609850085,301,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,301,0,227
+1630609850323,77,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,77,0,0
+1630609850350,84,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,84,0,0
+1630609850386,70,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,70,0,0
+1630609850400,75,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609850434,75,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609850457,74,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609850476,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,77,0,0
+1630609850509,78,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,78,0,0
+1630609850531,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,76,0,0
+1630609850554,75,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609850588,87,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609850608,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609850630,77,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,77,0,0
+1630609850676,77,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,77,0,0
+1630609850680,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,73,0,0
+1630609850708,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609850754,74,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609850754,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609850788,82,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,82,0,0
+1630609850829,77,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,77,0,0
+1630609850832,80,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,80,0,0
+1630609850871,77,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609850906,81,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609850913,78,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609850949,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,78,0,0
+1630609850987,82,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,82,0,0
+1630609850991,86,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,86,0,0
+1630609851030,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609851070,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609851078,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3079,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609851110,75,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,75,0,0
+1630609851142,74,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,74,0,0
+1630609851153,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,72,0,0
+1630609851186,76,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609851217,76,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609851227,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609851262,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,72,0,0
+1630609851293,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,76,0,0
+1630609851301,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,74,0,0
+1630609851082,293,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,293,0,219
+1630609851335,76,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609851370,76,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609851376,72,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,72,0,0
+1630609851376,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609851412,74,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,74,0,0
+1630609851449,69,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609851447,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,76,0,0
+1630609851451,72,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,72,0,0
+1630609851487,74,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609851518,72,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,72,0,0
+1630609851524,73,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609851525,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609851562,75,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,75,0,0
+1630609851590,77,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609851597,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,75,0,0
+1630609851597,77,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,77,0,0
+1630609851638,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609851668,72,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,72,0,0
+1630609851673,76,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609851675,79,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609851719,77,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,77,0,0
+1630609851741,76,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609851750,69,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,69,0,0
+1630609851755,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,74,0,0
+1630609851797,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609851818,74,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,73,0,0
+1630609851819,85,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,85,0,0
+1630609851831,81,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609851876,75,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,75,0,0
+1630609851892,82,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3049,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609851904,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,76,0,0
+1630609851912,83,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,83,0,0
+1630609851952,97,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,97,0,0
+1630609851975,84,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,84,0,0
+1630609851981,85,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,4,4,https://ensure-quality-appservice.azurewebsites.net/api/Activities,85,0,0
+1630609851996,89,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,89,0,0
+1630609852049,103,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,102,0,0
+1630609852059,97,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,97,0,0
+1630609852066,92,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,92,0,0
+1630609852086,78,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,78,0,0
+1630609852156,73,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,73,0,0
+1630609852159,83,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609852153,90,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,89,0,0
+1630609852166,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609852243,66,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,66,0,0
+1630609852229,81,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609852243,69,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,69,0,0
+1630609852243,79,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,79,0,0
+1630609852310,75,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609852311,80,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,80,0,0
+1630609852312,79,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609852323,71,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852083,314,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,314,0,233
+1630609852394,73,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609852398,69,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,69,0,0
+1630609852386,82,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,82,0,0
+1630609852392,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,75,0,0
+1630609852395,74,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,74,0,0
+1630609852468,69,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,69,0,0
+1630609852469,68,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609852469,68,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609852469,72,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609852470,71,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852538,68,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,68,0,0
+1630609852538,68,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,68,0,0
+1630609852538,68,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609852542,67,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,67,0,0
+1630609852542,73,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,73,0,0
+1630609852606,75,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,75,0,0
+1630609852606,75,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609852606,75,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609852611,73,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609852616,69,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609852681,72,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,72,0,0
+1630609852681,72,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,72,0,0
+1630609852681,72,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609852685,70,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,70,0,0
+1630609852686,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,72,0,0
+1630609852753,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852753,71,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852753,71,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,71,0,0
+1630609852756,70,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609852759,74,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609852824,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,76,0,0
+1630609852824,76,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,76,0,0
+1630609852825,75,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609852826,76,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,76,0,0
+1630609852834,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,78,0,0
+1630609852900,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852900,73,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,73,0,0
+1630609852900,73,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609852903,72,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609852912,81,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609852972,67,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,67,0,0
+1630609852974,65,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,65,0,0
+1630609852974,72,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609852975,83,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,83,0,0
+1630609852994,73,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,5,5,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,73,0,0
+1630609853040,70,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609853040,70,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609853047,69,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,69,0,0
+1630609853059,69,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609853068,76,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609853111,69,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,69,0,0
+1630609853111,69,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,69,0,0
+1630609853116,78,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3079,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609853128,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,74,0,0
+1630609853144,76,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,76,0,0
+1630609853180,87,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609853180,87,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609853195,79,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,79,0,0
+1630609853203,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609853221,86,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,86,0,0
+1630609853267,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,75,0,0
+1630609853267,81,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,81,0,0
+1630609853274,78,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609853278,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,74,0,0
+1630609853308,81,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,81,0,0
+1630609853085,323,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,323,0,239
+1630609853343,69,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609853349,73,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609853352,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609853352,76,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,76,0,0
+1630609853390,83,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609853413,65,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,65,0,0
+1630609853410,72,GET Activity,200,OK,Endurance Tests 1-6,text,true,,352,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,72,0,0
+1630609853423,71,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,70,0,0
+1630609853429,70,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609853429,78,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,78,0,0
+1630609853479,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609853473,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,77,0,0
+1630609853482,72,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609853499,76,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,76,0,0
+1630609853494,81,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609853507,70,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609853552,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,76,0,0
+1630609853555,80,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,80,0,0
+1630609853552,83,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609853576,74,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,74,0,0
+1630609853575,76,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609853578,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,75,0,0
+1630609853629,74,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609853636,74,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,74,0,0
+1630609853636,74,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609853652,76,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,76,0,0
+1630609853652,80,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609853653,79,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609853704,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,71,0,0
+1630609853711,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609853711,78,GET Activity,200,OK,Endurance Tests 1-6,text,true,,351,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,77,0,0
+1630609853728,66,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,66,0,0
+1630609853732,75,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,75,0,0
+1630609853732,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,75,0,0
+1630609853776,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609853794,71,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,71,0,0
+1630609853790,75,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,75,0,0
+1630609853792,74,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609853808,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609853808,80,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609853849,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,73,0,0
+1630609853866,79,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,79,0,0
+1630609853865,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609853865,82,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609853888,70,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,70,0,0
+1630609853886,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,74,0,0
+1630609853924,68,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609853945,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,72,0,0
+1630609853947,70,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,70,0,0
+1630609853945,80,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609853958,71,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609853961,68,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609853993,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,6,6,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,71,0,0
+1630609854018,75,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609854018,82,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3049,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609854029,71,GET Activity,200,OK,Endurance Tests 1-5,text,true,,350,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,71,0,0
+1630609854029,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,349,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,74,0,0
+1630609854025,79,GET Activity,200,OK,Endurance Tests 1-6,text,true,,349,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,79,0,0
+1630609854065,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609854104,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609854101,80,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609854093,93,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,93,0,0
+1630609854101,85,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,85,0,0
+1630609854104,88,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609854137,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,75,0,0
+1630609854186,79,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609854181,87,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,87,0,0
+1630609854181,84,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,84,0,0
+1630609854186,83,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609854192,78,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,78,0,0
+1630609854213,67,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,66,0,0
+1630609854266,73,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,73,0,0
+1630609854270,72,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609854269,79,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609854270,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,78,0,0
+1630609854271,84,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,84,0,0
+1630609854280,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,75,0,0
+1630609854081,282,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,282,0,209
+1630609854340,77,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609854343,74,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,74,0,0
+1630609854348,69,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,69,0,0
+1630609854348,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609854356,75,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609854364,71,GET Activity,200,OK,Endurance Tests 1-7,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,71,0,0
+1630609854355,84,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,84,0,0
+1630609854419,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609854418,77,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609854418,77,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,77,0,0
+1630609854428,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,72,0,0
+1630609854432,68,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,68,0,0
+1630609854435,71,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609854439,73,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609854495,88,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,88,0,0
+1630609854501,82,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609854495,89,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,89,0,0
+1630609854495,89,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,89,0,0
+1630609854507,80,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,80,0,0
+1630609854513,93,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,93,0,0
+1630609854501,106,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,106,0,0
+1630609854584,74,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609854584,74,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,74,0,0
+1630609854584,74,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,74,0,0
+1630609854588,70,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609854585,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609854608,75,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609854607,80,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,80,0,0
+1630609854658,76,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609854658,76,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609854658,76,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,76,0,0
+1630609854660,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,75,0,0
+1630609854659,79,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,79,0,0
+1630609854684,79,GET Activity,200,OK,Endurance Tests 1-6,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,78,0,0
+1630609854689,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609854734,69,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,69,0,0
+1630609854735,68,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,68,0,0
+1630609854734,76,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609854739,72,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609854736,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609854763,81,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609854768,80,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,80,0,0
+1630609854811,66,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,66,0,0
+1630609854804,73,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609854811,69,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,69,0,0
+1630609854804,77,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609854812,71,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,70,0,0
+1630609854844,80,GET Activity,200,OK,Endurance Tests 1-6,text,true,,351,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,80,0,0
+1630609854849,89,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,88,0,0
+1630609854878,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,71,0,0
+1630609854882,70,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,70,0,0
+1630609854878,74,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609854881,72,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609854883,78,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609854925,77,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609854938,80,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,80,0,0
+1630609854950,68,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609854953,74,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,74,0,0
+1630609854953,74,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,74,0,0
+1630609854953,74,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609854962,72,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,7,7,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,72,0,0
+1630609855003,77,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,77,0,0
+1630609855019,70,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,70,0,0
+1630609855028,70,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609855028,70,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609855028,78,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,78,0,0
+1630609855019,87,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609855035,75,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609855090,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3079,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609855080,83,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609855098,65,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,65,0,0
+1630609855098,72,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,72,0,0
+1630609855106,76,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609855110,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,73,0,0
+1630609855106,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,77,0,0
+1630609855163,72,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609855163,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,73,0,0
+1630609855163,77,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,77,0,0
+1630609855170,73,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855183,65,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,65,0,0
+1630609855184,73,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855184,73,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855236,74,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609855235,77,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,77,0,0
+1630609855243,69,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,69,0,0
+1630609855241,79,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609855257,73,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,73,0,0
+1630609855257,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,73,0,0
+1630609855249,82,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609855310,67,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,67,0,0
+1630609855313,71,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609855312,79,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609855331,66,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,66,0,0
+1630609855320,77,GET Activity,200,OK,Endurance Tests 1-6,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,77,0,0
+1630609855331,73,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855331,73,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855078,332,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,332,0,243
+1630609855377,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609855384,70,GET Activity,200,OK,Endurance Tests 1-5,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,69,0,0
+1630609855392,66,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,66,0,0
+1630609855398,68,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609855398,74,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609855404,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,78,0,0
+1630609855411,71,GET Activity,200,OK,Endurance Tests 1-8,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,71,0,0
+1630609855404,82,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,82,0,0
+1630609855448,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,71,0,0
+1630609855454,72,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3079,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609855458,68,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3079,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,67,0,0
+1630609855466,75,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,75,0,0
+1630609855472,74,GET Activity,200,OK,Endurance Tests 1-6,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,74,0,0
+1630609855483,90,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,90,0,0
+1630609855483,90,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,90,0,0
+1630609855486,87,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609855519,75,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609855527,68,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,68,0,0
+1630609855526,68,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,68,0,0
+1630609855541,79,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609855547,83,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609855574,72,GET Activity,200,OK,Endurance Tests 1-8,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,72,0,0
+1630609855574,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,72,0,0
+1630609855574,72,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,72,0,0
+1630609855595,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,75,0,0
+1630609855595,75,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609855595,75,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609855621,78,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,78,0,0
+1630609855630,78,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,78,0,0
+1630609855648,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609855648,83,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609855647,85,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,85,0,0
+1630609855670,77,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609855670,77,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,77,0,0
+1630609855670,77,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,77,0,0
+1630609855709,73,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855701,86,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,86,0,0
+1630609855728,72,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,72,0,0
+1630609855732,75,GET Activity,200,OK,Endurance Tests 1-8,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,75,0,0
+1630609855732,82,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,82,0,0
+1630609855748,76,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3049,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609855748,76,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,76,0,0
+1630609855748,80,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3049,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609855783,78,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,78,0,0
+1630609855787,74,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,74,0,0
+1630609855800,73,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609855814,71,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609855808,79,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609855828,71,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,71,0,0
+1630609855824,75,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,75,0,0
+1630609855825,75,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3079,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609855862,72,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609855861,75,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609855873,69,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,69,0,0
+1630609855888,75,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,75,0,0
+1630609855885,78,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,78,0,0
+1630609855900,66,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,66,0,0
+1630609855900,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,71,0,0
+1630609855901,71,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609855934,84,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,84,0,0
+1630609855937,86,GET Activity,200,OK,Endurance Tests 1-6,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,86,0,0
+1630609855942,82,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609855964,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609855966,76,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,75,0,0
+1630609855964,78,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609855972,79,GET Activity,200,OK,Endurance Tests 1-5,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,79,0,0
+1630609855971,80,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609856019,69,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856023,72,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856025,74,GET Activity,200,OK,Endurance Tests 1-1,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,74,0,0
+1630609856042,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,75,0,0
+1630609856042,79,GET Activity,200,OK,Endurance Tests 1-8,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,79,0,0
+1630609856042,79,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609856052,77,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,76,0,0
+1630609856052,77,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609856088,73,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,73,0,0
+1630609856096,73,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,73,0,0
+1630609856100,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609856121,69,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,69,0,0
+1630609856118,77,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609856129,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856130,71,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,71,0,0
+1630609856121,80,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609856162,75,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609856169,73,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609856180,79,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,79,0,0
+1630609856190,69,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856201,68,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,68,0,0
+1630609856195,74,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,74,0,0
+1630609856201,72,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856201,73,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,73,0,0
+1630609856237,77,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,77,0,0
+1630609856243,76,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,76,0,0
+1630609856260,67,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,67,0,0
+1630609856260,77,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609856269,68,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,68,0,0
+1630609856274,72,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,72,0,0
+1630609856274,77,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609856269,86,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,86,0,0
+1630609856077,301,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,301,0,228
+1630609856314,69,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856319,74,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609856327,73,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609856337,73,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,73,0,0
+1630609856337,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,73,0,0
+1630609856346,73,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609856352,75,GET Activity,200,OK,Endurance Tests 1-8,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,75,0,0
+1630609856355,76,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,76,0,0
+1630609856378,76,GET Activity,200,OK,Endurance Tests 1-9,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,76,0,0
+1630609856383,75,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,75,0,0
+1630609856401,66,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,66,0,0
+1630609856393,80,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,80,0,0
+1630609856411,70,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609856419,70,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,70,0,0
+1630609856411,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609856431,74,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3079,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609856427,83,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609856455,72,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856459,76,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609856468,74,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609856474,79,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609856482,77,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,77,0,0
+1630609856490,69,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856490,71,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,71,0,0
+1630609856505,76,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,76,0,0
+1630609856510,77,GET Activity,200,OK,Endurance Tests 1-8,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,77,0,0
+1630609856528,76,GET Activity,200,OK,Endurance Tests 1-9,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,75,0,0
+1630609856542,65,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,65,0,0
+1630609856535,72,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,72,0,0
+1630609856559,69,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3079,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856559,69,GET Activity,200,OK,Endurance Tests 1-5,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,69,0,0
+1630609856562,69,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856553,82,GET Activity,200,OK,Endurance Tests 1-6,text,true,,350,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,82,0,0
+1630609856582,75,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609856588,69,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,69,0,0
+1630609856604,70,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609856607,72,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856607,73,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609856628,90,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,90,0,0
+1630609856628,90,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,90,0,0
+1630609856631,92,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,92,0,0
+1630609856635,95,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,95,0,0
+1630609856658,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,73,0,0
+1630609856658,80,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,80,0,0
+1630609856674,67,GET Activity,200,OK,Endurance Tests 1-9,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,67,0,0
+1630609856679,66,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,66,0,0
+1630609856680,80,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,80,0,0
+1630609856718,71,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,71,0,0
+1630609856718,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609856724,70,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609856730,81,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,81,0,0
+1630609856742,75,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609856732,85,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,84,0,0
+1630609856746,71,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609856739,78,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609856761,77,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609856790,98,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,98,0,0
+1630609856790,98,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,98,0,0
+1630609856818,72,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,72,0,0
+1630609856812,78,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609856795,95,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,95,0,0
+1630609856818,74,GET Activity,200,OK,Endurance Tests 1-9,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,73,0,0
+1630609856818,76,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,76,0,0
+1630609856818,79,GET Activity,200,OK,Endurance Tests 1-8,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,78,0,0
+1630609856838,66,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,66,0,0
+1630609856889,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856893,71,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609856889,75,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,75,0,0
+1630609856890,74,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609856891,85,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,85,0,0
+1630609856897,79,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609856905,75,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609856891,89,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,89,0,0
+1630609856894,86,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,86,0,0
+1630609856962,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,73,0,0
+1630609856965,71,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,71,0,0
+1630609856964,72,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609856964,72,GET Activity,200,OK,Endurance Tests 1-9,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,72,0,0
+1630609856981,64,GET Activity,200,OK,Endurance Tests 1-4,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,64,0,0
+1630609856976,69,GET Activity,200,OK,Endurance Tests 1-8,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,69,0,0
+1630609856981,69,GET Activity,200,OK,Endurance Tests 1-2,text,true,,351,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,69,0,0
+1630609856981,69,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,69,0,0
+1630609856976,77,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857036,79,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857036,79,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857036,79,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857036,79,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,79,0,0
+1630609857045,73,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609857050,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609857045,81,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609857050,79,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857054,75,GET Activity,200,OK,Endurance Tests 1-6,text,true,,350,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,75,0,0
+1630609857115,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,75,0,0
+1630609857115,75,GET Activity,200,OK,Endurance Tests 1-7,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,75,0,0
+1630609857115,77,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857115,77,GET Activity,200,OK,Endurance Tests 1-9,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,77,0,0
+1630609857119,79,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,79,0,0
+1630609857126,75,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,75,0,0
+1630609857130,71,GET Activity,200,OK,Endurance Tests 1-1,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,71,0,0
+1630609857126,80,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,80,0,0
+1630609857130,76,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609857191,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609857193,70,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,70,0,0
+1630609857191,72,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609857193,78,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609857198,73,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609857201,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609857201,78,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609857206,76,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,76,0,0
+1630609857206,78,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609857263,71,GET Activity,200,OK,Endurance Tests 1-3,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,71,0,0
+1630609857263,71,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,71,0,0
+1630609857263,71,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609857271,72,GET Activity,200,OK,Endurance Tests 1-9,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,72,0,0
+1630609857271,79,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,79,0,0
+1630609857279,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,73,0,0
+1630609857279,81,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,80,0,0
+1630609857284,76,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,76,0,0
+1630609857283,77,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857080,305,GET All Activities,200,OK,Endurance Tests 1-10,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,305,0,230
+1630609857344,67,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,67,0,0
+1630609857334,77,GET Activity,200,OK,Endurance Tests 1-5,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,77,0,0
+1630609857335,76,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609857334,77,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857350,70,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609857352,87,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,87,0,0
+1630609857360,81,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,81,0,0
+1630609857361,80,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609857361,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609857385,69,GET Activity,200,OK,Endurance Tests 1-10,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,69,0,0
+1630609857411,77,GET Activity,200,OK,Endurance Tests 1-3,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,77,0,0
+1630609857411,77,GET Activity,200,OK,Endurance Tests 1-9,text,true,,351,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,77,0,0
+1630609857411,78,GET Activity,200,OK,Endurance Tests 1-7,text,true,,351,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,78,0,0
+1630609857411,78,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609857420,70,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,70,0,0
+1630609857455,65,GET All Activities,200,OK,Endurance Tests 1-10,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,65,0,0
+1630609857440,80,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,80,0,0
+1630609857442,79,GET Activity,200,OK,Endurance Tests 1-8,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,79,0,0
+1630609857442,79,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857442,82,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,82,0,0
+1630609857490,66,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,66,0,0
+1630609857489,67,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,67,0,0
+1630609857489,72,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609857489,71,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609857490,74,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609857520,74,GET Activity,200,OK,Endurance Tests 1-10,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,74,0,0
+1630609857520,83,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,83,0,0
+1630609857521,82,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609857522,81,GET Activity,200,OK,Endurance Tests 1-6,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,81,0,0
+1630609857524,80,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609857556,72,GET Activity,200,OK,Endurance Tests 1-7,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,72,0,0
+1630609857561,67,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,67,0,0
+1630609857561,74,GET Activity,200,OK,Endurance Tests 1-9,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,74,0,0
+1630609857556,79,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857564,77,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,77,0,0
+1630609857594,68,GET All Activities,200,OK,Endurance Tests 1-10,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,67,0,0
+1630609857604,76,GET Activity,200,OK,Endurance Tests 1-2,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,76,0,0
+1630609857605,78,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,78,0,0
+1630609857604,79,GET Activity,200,OK,Endurance Tests 1-8,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,79,0,0
+1630609857604,79,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,79,0,0
+1630609857628,72,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609857635,74,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609857628,81,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609857642,67,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,67,0,0
+1630609857635,74,GET Activity,200,OK,Endurance Tests 1-5,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,74,0,0
+1630609857662,68,GET Activity,200,OK,Endurance Tests 1-10,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,68,0,0
+1630609857701,72,GET Activity,200,OK,Endurance Tests 1-7,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,72,0,0
+1630609857681,92,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,92,0,0
+1630609857683,90,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,90,0,0
+1630609857683,90,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,90,0,0
+1630609857683,91,GET Activity,200,OK,Endurance Tests 1-6,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,91,0,0
+1630609857709,75,GET Activity,200,OK,Endurance Tests 1-4,text,true,,354,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,75,0,0
+1630609857709,75,GET Activity,200,OK,Endurance Tests 1-9,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,75,0,0
+1630609857709,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,75,0,0
+1630609857709,75,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609857730,76,GET All Activities,200,OK,Endurance Tests 1-10,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609857773,73,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,73,0,0
+1630609857773,73,GET Activity,200,OK,Endurance Tests 1-1,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,73,0,0
+1630609857773,82,GET Activity,200,OK,Endurance Tests 1-8,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,82,0,0
+1630609857784,71,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,71,0,0
+1630609857785,70,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,70,0,0
+1630609857773,82,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,82,0,0
+1630609857784,72,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,72,0,0
+1630609857784,72,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,72,0,0
+1630609857774,86,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3049,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,86,0,0
+1630609857807,89,GET Activity,200,OK,Endurance Tests 1-10,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,88,0,0
+1630609857855,72,GET Activity,200,OK,Endurance Tests 1-4,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,72,0,0
+1630609857847,81,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,81,0,0
+1630609857856,73,GET Activity,200,OK,Endurance Tests 1-3,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,72,0,0
+1630609857855,74,GET Activity,200,OK,Endurance Tests 1-7,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,74,0,0
+1630609857857,73,GET Activity,200,OK,Endurance Tests 1-9,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,73,0,0
+1630609857846,84,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,84,0,0
+1630609857857,73,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,73,0,0
+1630609857855,94,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,94,0,0
+1630609857860,89,GET Activity,200,OK,Endurance Tests 1-6,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,89,0,0
+1630609857896,80,GET All Activities,200,OK,Endurance Tests 1-10,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609857928,77,GET All Activities,200,OK,Endurance Tests 1-4,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857929,76,GET All Activities,200,OK,Endurance Tests 1-7,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,74,0,0
+1630609857928,77,GET Activity,200,OK,Endurance Tests 1-2,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,77,0,0
+1630609857931,74,GET Activity,200,OK,Endurance Tests 1-5,text,true,,352,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,74,0,0
+1630609857929,77,GET All Activities,200,OK,Endurance Tests 1-3,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,77,0,0
+1630609857930,76,GET Activity,200,OK,Endurance Tests 1-1,text,true,,353,188,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,76,0,0
+1630609857930,75,GET All Activities,200,OK,Endurance Tests 1-9,text,true,,3109,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609857949,77,GET Activity,200,OK,Endurance Tests 1-8,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,77,0,0
+1630609857950,76,GET All Activities,200,OK,Endurance Tests 1-6,text,true,,3079,185,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609857976,72,GET Activity,200,OK,Endurance Tests 1-10,text,true,,351,187,10,10,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,72,0,0
+1630609858005,68,GET Activity,200,OK,Endurance Tests 1-7,text,true,,352,187,9,9,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,68,0,0
+1630609858006,75,GET Activity,200,OK,Endurance Tests 1-3,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,75,0,0
+1630609858005,76,GET Activity,200,OK,Endurance Tests 1-4,text,true,,352,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,76,0,0
+1630609858006,75,GET All Activities,200,OK,Endurance Tests 1-5,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,75,0,0
+1630609858006,76,GET All Activities,200,OK,Endurance Tests 1-2,text,true,,3109,185,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities,76,0,0
+1630609858007,75,GET Activity,200,OK,Endurance Tests 1-9,text,true,,351,187,8,8,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,74,0,0
+1630609858006,78,GET All Activities,200,OK,Endurance Tests 1-1,text,true,,3109,185,3,3,https://ensure-quality-appservice.azurewebsites.net/api/Activities,78,0,0
+1630609858026,80,GET All Activities,200,OK,Endurance Tests 1-8,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,80,0,0
+1630609858026,80,GET Activity,200,OK,Endurance Tests 1-6,text,true,,352,187,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,80,0,0

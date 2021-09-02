@@ -9,17 +9,14 @@ DRIVER = webdriver.Chrome(options=chrome_options)
 # Start the browser and login with standard_user
 def login (user, password):
     print ('Starting the browser...')
-    # --uncomment when running in Azure DevOps.
-    # options = ChromeOptions()
-    # options.add_argument("--headless") 
-    # DRIVER = webdriver.Chrome(options=options)
-    print ('Browser started successfully. Navigating to the demo page to login.')
     DRIVER.get('https://www.saucedemo.com/')
+    print ('Browser started successfully. Navigating to the demo page to login.')
 
     DRIVER.find_element_by_id('user-name').send_keys(user)
     DRIVER.find_element_by_id('password').send_keys(password)
     DRIVER.find_element_by_id('login-button').click()
 
+    print('%s logged in' % user)
     print ('Asserting PRODUCTS is the page title')
     # .upper ensures the case will be matched in the event that the website decides to change the title formatting
     assert 'PRODUCTS'.upper() in DRIVER.find_element_by_class_name('title').text.upper()

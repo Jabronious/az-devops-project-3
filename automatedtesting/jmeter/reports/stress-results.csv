@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1630609818145,1112,GET All Activities,200,OK,Stress Tests 1-15,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,1112,0,225
+1630609817698,1562,GET All Activities,200,OK,Stress Tests 1-13,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,1562,0,222
+1630609816303,2959,GET All Activities,200,OK,Stress Tests 1-7,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,2959,0,224
+1630609817467,1796,GET All Activities,200,OK,Stress Tests 1-12,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,1796,0,227
+1630609816075,3189,GET All Activities,200,OK,Stress Tests 1-6,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,3189,0,246
+1630609817922,1344,GET All Activities,200,OK,Stress Tests 1-14,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,1344,0,222
+1630609815607,3659,GET All Activities,200,OK,Stress Tests 1-4,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,3659,0,553
+1630609817002,2265,GET All Activities,200,OK,Stress Tests 1-10,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,2264,0,226
+1630609818841,427,GET All Activities,200,OK,Stress Tests 1-18,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,427,0,248
+1630609818375,895,GET All Activities,200,OK,Stress Tests 1-16,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,895,0,224
+1630609818609,661,GET All Activities,200,OK,Stress Tests 1-17,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,661,0,242
+1630609815380,3892,GET All Activities,200,OK,Stress Tests 1-3,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,3891,0,779
+1630609815170,4102,GET All Activities,200,OK,Stress Tests 1-2,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,4102,0,1026
+1630609815839,3434,GET All Activities,200,OK,Stress Tests 1-5,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,3434,0,324
+1630609817228,2031,GET All Activities,200,OK,Stress Tests 1-11,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,2031,0,237
+1630609816533,2725,GET All Activities,200,OK,Stress Tests 1-8,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,2725,0,237
+1630609815154,4105,GET All Activities,200,OK,Stress Tests 1-1,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,4104,0,1009
+1630609816771,2487,GET All Activities,200,OK,Stress Tests 1-9,text,true,,3109,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,2487,0,245
+1630609819267,137,GET Activity,200,OK,Stress Tests 1-14,text,true,,353,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/14,136,0,0
+1630609819261,143,GET Activity,200,OK,Stress Tests 1-15,text,true,,354,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/15,142,0,0
+1630609819261,146,GET Activity,200,OK,Stress Tests 1-13,text,true,,354,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/13,146,0,0
+1630609819262,145,GET Activity,200,OK,Stress Tests 1-7,text,true,,352,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/7,145,0,0
+1630609819267,145,GET Activity,200,OK,Stress Tests 1-10,text,true,,353,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/10,145,0,0
+1630609819273,142,GET Activity,200,OK,Stress Tests 1-2,text,true,,350,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/2,142,0,0
+1630609819272,143,GET Activity,200,OK,Stress Tests 1-3,text,true,,351,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/3,143,0,0
+1630609819276,140,GET Activity,200,OK,Stress Tests 1-1,text,true,,351,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/1,140,0,0
+1630609819270,151,GET Activity,200,OK,Stress Tests 1-17,text,true,,353,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/17,151,0,0
+1630609819264,157,GET Activity,200,OK,Stress Tests 1-6,text,true,,350,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/6,157,0,0
+1630609819276,145,GET Activity,200,OK,Stress Tests 1-8,text,true,,350,187,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/8,145,0,0
+1630609819274,148,GET Activity,200,OK,Stress Tests 1-11,text,true,,353,188,20,20,https://ensure-quality-appservice.azurewebsites.net/api/Activities/11,148,0,0
+1630609819267,159,GET Activity,200,OK,Stress Tests 1-4,text,true,,350,187,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities/4,159,0,0
+1630609819078,348,GET All Activities,200,OK,Stress Tests 1-19,text,true,,3079,185,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities,348,0,230
+1630609819269,157,GET Activity,200,OK,Stress Tests 1-18,text,true,,352,188,19,19,https://ensure-quality-appservice.azurewebsites.net/api/Activities/18,157,0,0
+1630609819270,160,GET Activity,200,OK,Stress Tests 1-16,text,true,,352,188,16,16,https://ensure-quality-appservice.azurewebsites.net/api/Activities/16,160,0,0
+1630609819276,154,GET Activity,200,OK,Stress Tests 1-9,text,true,,351,187,16,16,https://ensure-quality-appservice.azurewebsites.net/api/Activities/9,154,0,0
+1630609819265,166,GET Activity,200,OK,Stress Tests 1-12,text,true,,353,188,16,16,https://ensure-quality-appservice.azurewebsites.net/api/Activities/12,166,0,0
+1630609819274,157,GET Activity,200,OK,Stress Tests 1-5,text,true,,351,187,16,16,https://ensure-quality-appservice.azurewebsites.net/api/Activities/5,157,0,0
+1630609819427,84,GET Activity,200,OK,Stress Tests 1-19,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/19,84,0,0
+1630609819307,293,GET All Activities,200,OK,Stress Tests 1-20,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,293,0,223
+1630609819601,85,GET Activity,200,OK,Stress Tests 1-20,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/20,84,0,0
+1630609819543,308,GET All Activities,200,OK,Stress Tests 1-21,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,307,0,226
+1630609819851,80,GET Activity,200,OK,Stress Tests 1-21,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/21,80,0,0
+1630609819769,317,GET All Activities,200,OK,Stress Tests 1-22,text,true,,3079,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,317,0,240
+1630609820086,77,GET Activity,200,OK,Stress Tests 1-22,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/22,77,0,0
+1630609820007,301,GET All Activities,200,OK,Stress Tests 1-23,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,301,0,225
+1630609820308,85,GET Activity,200,OK,Stress Tests 1-23,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/23,85,0,0
+1630609820233,288,GET All Activities,200,OK,Stress Tests 1-24,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,288,0,218
+1630609820522,79,GET Activity,200,OK,Stress Tests 1-24,text,true,,352,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/24,79,0,0
+1630609820464,308,GET All Activities,200,OK,Stress Tests 1-25,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,308,0,220
+1630609820773,89,GET Activity,200,OK,Stress Tests 1-25,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/25,89,0,0
+1630609820689,306,GET All Activities,200,OK,Stress Tests 1-26,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,306,0,226
+1630609820995,81,GET Activity,200,OK,Stress Tests 1-26,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/26,81,0,0
+1630609820918,295,GET All Activities,200,OK,Stress Tests 1-27,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,295,0,215
+1630609821214,82,GET Activity,200,OK,Stress Tests 1-27,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/27,82,0,0
+1630609821149,297,GET All Activities,200,OK,Stress Tests 1-28,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,297,0,220
+1630609821447,75,GET Activity,200,OK,Stress Tests 1-28,text,true,,353,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/28,75,0,0
+1630609821385,300,GET All Activities,200,OK,Stress Tests 1-29,text,true,,3109,185,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities,299,0,223
+1630609821685,72,GET Activity,200,OK,Stress Tests 1-29,text,true,,354,188,2,2,https://ensure-quality-appservice.azurewebsites.net/api/Activities/29,72,0,0
+1630609821615,291,GET All Activities,200,OK,Stress Tests 1-30,text,true,,3109,185,1,1,https://ensure-quality-appservice.azurewebsites.net/api/Activities,291,0,214
+1630609821907,85,GET Activity,200,OK,Stress Tests 1-30,text,true,,353,188,1,1,https://ensure-quality-appservice.azurewebsites.net/api/Activities/30,85,0,0
