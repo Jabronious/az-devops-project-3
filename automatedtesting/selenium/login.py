@@ -3,7 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 
 chrome_options = ChromeOptions()
-chrome_options.add_argument("--no-sandbox") # linux only
 chrome_options.add_argument("--headless")
 
 DRIVER = webdriver.Chrome(options=chrome_options)
