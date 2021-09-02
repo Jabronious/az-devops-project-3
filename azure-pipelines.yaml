@@ -135,8 +135,9 @@ stages:
                 sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
                 sudo apt-get install -y chromium-browser
+                sudo apt-get install chromium-chromedriver
                 pip3 install selenium
-                export PATH=$PATH:/usr/bin/chromium-browser
+                export PATH=$PATH:/usr/bin/chromedriver
           - task: CmdLine@2
             inputs:
               script: echo $PATH
