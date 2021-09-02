@@ -135,7 +135,14 @@ stages:
                 sudo apt-get install python3-pip -y
                 sudo apt-get install unzip -y
                 sudo apt-get install -y chromium-browser
-                sudo apt-get install chromium-chromedriver
+
+                #Installing Chromdriver
+                wget https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
+                unzip chromedriver_linux64.zip
+                sudo mv chromedriver /usr/bin/chromedriver
+                sudo chown root:root /usr/bin/chromedriver
+                sudo chmod +x /usr/bin/chromedriver
+
                 pip3 install selenium
                 export PATH=$PATH:/usr/bin/chromedriver
                 echo $PATH
