@@ -138,12 +138,10 @@ stages:
                 sudo apt-get install chromium-chromedriver
                 pip3 install selenium
                 export PATH=$PATH:/usr/bin/chromedriver
+                echo $PATH
           - task: CmdLine@2
             inputs:
               script: echo $PATH
-          - task: CmdLine@2
-            inputs:
-              script: which chromium-browser
           - task: Bash@3
             displayName: Selenium tests
             inputs:
