@@ -2,6 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 import datetime
+from pprint import pprint
 
 chrome_options = ChromeOptions()
 chrome_options.add_argument("--headless")
@@ -25,19 +26,20 @@ def login (user, password):
 
 def add_cart():
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\tAsserting items were added to cart')
-    assert str(click_btns()) in DRIVER.find_element_by_class_name('shopping_cart_badge').text
+    assert str(click_btns('Adding item to cart:')) in DRIVER.find_element_by_class_name('shopping_cart_badge').text
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\tAssertion passed.')
 
 def remove_cart():
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\tAsserting back pack was removed from cart')
-    click_btns()
+    click_btns('Removing item from cart:')
     assert not len(DRIVER.find_elements_by_class_name('shopping_cart_badge'))
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\tAssertion passed.')
 
-def click_btns():
+def click_btns(message):
     inventoryBtns = DRIVER.find_elements_by_class_name('btn_inventory')
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\tClicking all the buttons...')
     for btn in inventoryBtns:
+        print("%s\t%s %s" %(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), message, btn.get_property("name").replace('add-to-cart', '').replace('remove', '').replace('-', ' ').strip().upper()))
         btn.click()
     print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\t%d items clicked' % len(inventoryBtns))
     return len(inventoryBtns)
