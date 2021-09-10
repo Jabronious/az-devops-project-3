@@ -166,6 +166,7 @@ stages:
               targetType: 'inline'
               script: |
                 python3 /home/adminuser/azagent/_work/1/selenium/automatedtesting/selenium/login.py > selenium.log
+                cat selenium.log
                 sudo mv selenium.log /var/log/
 - stage: Test_Suites
   displayName: Running All Tests
