@@ -155,6 +155,7 @@ stages:
 
                 pip3 install selenium
                 export PATH=$PATH:/usr/bin/chromedriver
+                chromedriver -v
                 echo $PATH
 
           - task: Bash@3
